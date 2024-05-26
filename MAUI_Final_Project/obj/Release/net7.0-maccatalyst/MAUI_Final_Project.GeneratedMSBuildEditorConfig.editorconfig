@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MAUI_Final_Project
+build_property.ProjectDir = /Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/Course.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.Course.xaml
+build_metadata.AdditionalFiles.TargetPath = Course.xaml
+build_metadata.AdditionalFiles.RelativePath = Course.xaml
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/Enroll.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.Enroll.xaml
+build_metadata.AdditionalFiles.TargetPath = Enroll.xaml
+build_metadata.AdditionalFiles.RelativePath = Enroll.xaml
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/palnet/Projects/MAUI_Final_Project/MAUI_Final_Project/Student.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_Final_Project.Student.xaml
+build_metadata.AdditionalFiles.TargetPath = Student.xaml
+build_metadata.AdditionalFiles.RelativePath = Student.xaml

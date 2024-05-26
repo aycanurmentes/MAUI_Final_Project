@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Final_Project.Course"
+             Title="Course">
+   <ScrollView>
+        <StackLayout Margin="30" Spacing="5">
+            <Label Text="Course Code" FontAttributes="Bold"/>
+            <Entry x:Name="Course_Code" Keyboard="Numeric"/>
+
+            <Label Text="Course Name" FontAttributes="Bold"/>
+            <Entry x:Name="Course_Name"/>
+
+            <Button x:Name="addcourse_btn" Clicked="addcourse_btn_Clicked" Text="Add"/>
+
+            <ScrollView>
+                <ListView x:Name="Course_List_View">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Label Text="{Binding Crs_Code}"/>
+                                    <Label Text="{Binding Crs_Name}"/>
+                                    <Button x:Name="deletecourse_btn" Clicked="deletecourse_btn_Clicked" BindingContext="{Binding Crs_ID}" Text="Delete"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+
+
+                </ListView>
+
+            </ScrollView>
+            <Button x:Name="showcourse_btn" Clicked="showcourse_btn_Clicked" Text="Show"/>
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>
